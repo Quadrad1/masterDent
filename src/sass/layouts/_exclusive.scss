@@ -1,0 +1,24 @@
+@import"../components/_variables.scss";
+@import"../base/_smart-grid.scss";
+
+.banner{
+  width: 100%;
+  padding: 1%;
+  img{
+    width: 100%;
+  }
+}
+.columns{
+  @include md(columns,2);
+  @include md(columns,1);
+  width: 100%;
+  columns: 3;
+  column-rule: 20px;
+  p{
+    margin: 20px 0;
+    color: #000000;
+    font-family: $PT-Sans-Regular;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

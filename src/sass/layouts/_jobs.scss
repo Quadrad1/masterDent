@@ -1,0 +1,63 @@
+@import"../components/_variables.scss";
+@import"../base/_smart-grid.scss";
+
+.jobs-blocks{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.job-item{
+  @include sm(width,48%);
+  @include sm(width,80%);
+  @include xs(width,94%);
+  @include sm(margin,auto);
+  width: 43%;
+  margin: 20px 10px;
+  border: 1px solid #D5D5D5;
+  border-radius: 10px;
+
+  &__title{
+    padding: 10px 32px;
+    background: #ededed;
+    color: #000000;
+    font-family: $PT-Sans-Bold;
+    font-size: 32px;
+
+  }
+  h2{
+    color: #000000;
+    padding: 5px 32px;
+    font-family: $PT-Sans-Bold;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+  }
+}
+.price{
+  padding: 15px 32px;
+  color: #000000;
+  font-size: 24px;
+  line-height: 32px;
+}
+.job-text{
+  padding: 0 32px;
+  padding-bottom: 5px;
+  color: #000000;
+  font-size: 16px;
+  line-height: 20px;
+}
+.answer{
+  width: 243px;
+  padding: 8px 21px;
+  border-bottom: 4px solid green;
+  border-radius: 100px;
+  display: block;
+  margin: 40px auto;
+  background: linear-gradient(180deg, #72E4D5 0%, #14C080 100%);
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+}

@@ -1,0 +1,76 @@
+@import"../components/_variables.scss";
+@import"../base/_smart-grid.scss";
+
+
+main{
+  width: 100%;
+}
+.page-items{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.page-item{
+  @include md(flex-wrap,wrap);
+  @include md(height,auto);
+  @include sm(width,60%);
+  @include xs(width,90%);
+  @include sm(margin,20px auto);
+
+  margin-top: 40px;
+  width: 48.5%;
+  height:333px;
+  border: 1px solid #D5D5D5;
+  border-radius: 10px;
+  padding: 26px 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  img{
+    @include sm(width,50%);
+    width: 28%;
+    margin: auto;
+  }
+
+}
+.page-item__img-4{
+  width: 55px!important;
+  margin: 0 auto;
+}
+.description{
+  width: 100%;
+  &__title{
+    @include md(font-size,26px);
+    @include sm(font-size,20px);
+    width: 100%;
+    color: #000000;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+    padding: 0 0 0 20px;
+  }
+  &__text{
+    width: 100%;
+    color: #000000;
+    font-family: $PT-Sans-Regular;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 20px 0 0 20px;
+  }
+}
+.more-info{
+  @include sm(width,200px);
+  @include sm(margin,20px auto);
+  display: block;
+  height: 56px;
+  width: 251px;
+  border-radius: 10px;
+  background-color: #E3E3E3;
+  text-align: center;
+  padding: 17px 0;
+  margin: 20px 0 0 20px;
+  color: #000000;
+  font-size: 17px;
+  line-height: 22px;
+}

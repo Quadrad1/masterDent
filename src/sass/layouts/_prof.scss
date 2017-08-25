@@ -1,0 +1,43 @@
+@import"../components/_variables.scss";
+@import"../base/_smart-grid.scss";
+
+main{
+  width: 100%;
+  position: relative;
+}
+.columns{
+  @include md(columns,2);
+  @include sm(columns,1);
+  columns: 3;
+  column-gap: 80px;
+  margin-top: 25px;
+  p{
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 10px 0;
+  }
+}
+.info-block{
+  margin: auto;
+  width: 360px;
+  position: relative;
+  img{
+    max-width: 100%;
+  }
+}
+.name{
+  width: 100%;
+  color: #000000;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 38px;
+  margin: 20px 0;
+}
+.prof{
+  color: #000000;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 24px;
+  margin: 20px 0;
+}

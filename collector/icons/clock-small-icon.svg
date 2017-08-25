@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>clock-small-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Blocks-/-Header" transform="translate(-1031.000000, -47.000000)" fill="#000000">
+            <path d="M1038.6087,54.6086957 L1033.84058,54.6086957 L1033.84058,53.1884058 L1037.18841,53.1884058 L1037.18841,48.826087 L1038.6087,48.826087 L1038.6087,54.6086957 Z M1038,47 C1034.13397,47 1031,50.133971 1031,54 C1031,57.866029 1034.13397,61 1038,61 C1041.86603,61 1045,57.866029 1045,54 C1045,50.133971 1041.86603,47 1038,47 L1038,47 Z" id="clock-small-icon"></path>
+        </g>
+    </g>
+</svg>
